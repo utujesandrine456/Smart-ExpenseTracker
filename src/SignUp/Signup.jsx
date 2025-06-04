@@ -112,7 +112,7 @@ const Signup = () => {
                             <div className={styles.checkbox_wrapper}>
                                 <input type='checkbox' id="agree" checked={agree} onChange={(e) => setAgree(e.target.checked)}/>
                             </div>
-                            <label htmlFor="agree">
+                            <label htmlFor="agree" className={styles.checkbox_label}>
                                 Do you agree to Smart Expense Tracker's <span className={styles.check}>Terms & Conditions, Customer consent</span>
                                 <pre> and </pre><span className={styles.check_2}>Privacy Policy.</span>
                             </label>
