@@ -76,15 +76,14 @@
 
 .main_content {
     max-width: 830px;
-    height:680px;
-    margin: -680px 0  0 auto;
+    height:710px;
+    margin: -710px 0  0 auto;
     padding: 30px;
     background-color: #fff;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: #333;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-}
+  }
   
   .main_content h2 {
     font-size: 30px;
@@ -185,10 +184,14 @@
     line-height: 1.5;
     position: relative;
     top: -43px;
-    left:-350px;
     margin-bottom: 5px;
   }
-  
+
+  form .checkbox_label{
+      position: relative;
+      left: -350px;
+  } 
+
   .account label .check, .account label .check_2 {
     color: #577F26;
     font-weight: 500;
@@ -226,3 +229,4 @@
   text-decoration: none;
   color:#577F26;
 }
+
